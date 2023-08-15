@@ -11,7 +11,8 @@ class testdropship extends MY_Controller{
 	    //print_r($orderdata);
 	    $CI =& get_instance();
 	    
-	    $vendorid = $CI->config->item("ajio_vendor_id_hello");
+	    $vendorid = $CI->config->item("ajio_vendor_id");
+		echo $vendorid;die;
 	    
 	    $ajiofolder = $this->config->item($vendorid."_log");
 	    
