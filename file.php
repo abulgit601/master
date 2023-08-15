@@ -9,5 +9,9 @@ class Mycontroller extends MY_Controller{
         echo "test";die;
 
     }
+    public function push(){
+        echo "hello";
+
+    }
 
 ?>
