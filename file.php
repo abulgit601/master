@@ -10,8 +10,11 @@ class Mycontroller extends MY_Controller{
 
     }
     public function push(){
-        echo "hello";
+        echo "hello";die;
 
+    }
+    public function download(){
+        echo "download";die;
     }
 
 ?>
