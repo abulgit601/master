@@ -9,12 +9,13 @@ class Mycontroller extends MY_Controller{
         echo "test";die;
 
     }
-    public function push(){
-        echo "hello";die;
-
-    }
+   
     public function download(){
         echo "download";die;
+    }
+    public function order (){
+
+        echo "test";die;
     }
 
 ?>
