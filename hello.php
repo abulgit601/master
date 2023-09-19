@@ -1,1 +1,4 @@
-hi
+<?php
+
+echo "hello test"
+?>
